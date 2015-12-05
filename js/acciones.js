@@ -14,7 +14,7 @@ document.addEventListener("deviceready",function(){
 			{
 				$('#contenido').append('<div><div style=" display:inline-block"><div ><img src="perfumeria/recursos/imagenes/fotos/1.jpg"></div><div >'+ producto.perfumes[$x].IdPerfume +'</div></div><div style="display: inline-block"><div >'+ producto.perfumes[$x].NombrePerfume +'</div><div >'+ producto.perfumes[$x].Marca +'</div><div >'+ producto.perfumes[$x].Contenido +'</div><div >'+ producto.perfumes[$x].PrecioVenta +'</div></div></div>');
 			}
-			$(':mobile-pagecontainer').pagecontainer('change','#listado',{
+			$(':mobile-pagecontainer').pagecontainer('change','#Enlistar',{
 				transition: 'pop'});
 				
 			   }

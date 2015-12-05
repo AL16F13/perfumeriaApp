@@ -1,11 +1,11 @@
-// JavaScript Document
+//JavaScript Document
 $(document).ready(function(e) {
 document.addEventListener("deviceready",function(){
 	
 	$('#btnenlistar').on('tap',function(){
 		$.ajax({
 			type:"POST",
-			url:"http://192.168.1.185/perfumeria/buscartodo.php",
+			url:"http://192.168.1.184/perfumeria/buscartodo.php",
 			data:"",
 			error: function(){alert("Error en la conexion");},
 			success: function(respuesta){var producto = JSON.parse(respuesta);

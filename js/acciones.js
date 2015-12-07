@@ -53,8 +53,8 @@ document.addEventListener("deviceready",function(){
 	
 	$('#btn_buscar').on('tap',function(){
 	
-       $('#contenido1').empty()
-	   $('#txt_buscar').empty()	
+       $('#contenido1').empty();
+	   $('#txt_buscar').val("");	
 	});
 }); 
 });

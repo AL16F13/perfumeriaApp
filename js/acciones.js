@@ -27,6 +27,7 @@ document.addEventListener("deviceready",function(){
 	//buscar
 			
 	$('#btnbuscar').on('tap',function(){
+		
 		$.ajax({
 			type:"POST",
 			url:"http://192.168.1.192/perfumeria/buscarmarca.php",
@@ -50,6 +51,9 @@ document.addEventListener("deviceready",function(){
 		});
 	});
 	
+	$('#btn_buscar').on('tap',function(){
 	
+       $('#contenido1').empty()	
+	});
 }); 
 });
